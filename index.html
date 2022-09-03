@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <main>
+            <div>
+                <h1>To do list</h1>
+                <button data-js="addItemBtn">+</button>
+                <ul data-js="toDoList">
+                    <li class="to-do-list-item">
+                        <p data-js="itemData"></p>
+                        <button data-js="itemDoneBtn">done</button>
+                        <button data-js="itemDeleteBtn">-</button>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p data-js="songNameContainer"></p>
+                <progress value="70" max="100">70%</progress>
+                <div>
+                    <button><</button>
+                    <button>play</button>
+                    <button>></button>
+                </div>
+            </div>
+            <div data-js="toDoItemInput" class="hidden">
+                <p>Insert what you will do</p>
+                <input type="text" name="" id="">
+                <button>done</button>
+            </div>
+        </main>
+        
+    </body>
+</html>
